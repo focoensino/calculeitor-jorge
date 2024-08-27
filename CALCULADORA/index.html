@@ -1,0 +1,61 @@
+<Link rel="stylesheet" type="text/css" href="geral.css">
+
+<div class="geral_cal">
+
+<div id="resultado">Resultado:0</div>
+<input type="trxt" id="numero_um">
+<input type="trxt" id="numero_dois">
+<br>
+<br>
+<button id="botao" onclick="soma()">somar</button> 
+<button id="botao" onclick="divisao()">dividir</button>
+<button id="botao" onclick="mutiplicaçao()">mutiplicar</button>
+<button id="botao" onclick="subtraçao()">subtrair</button>
+    </div>
+
+ <script>
+function soma(){
+var numeroum = document.getElementById("numero_um").value;
+var numerodois = document.getElementById("numero_dois").value;        
+
+var resultado = parseInt(numeroum) + parseInt(numerodois)
+document.getElementById("resultado").innerHTML = "Resultado :"+resultado
+}
+</script>
+
+<script>
+    function divisao(){
+    var numeroum = document.getElementById("numero_um").value;
+    var numerodois = document.getElementById("numero_dois").value;        
+    
+    var resultado = parseInt(numeroum) / parseInt(numerodois)
+    document.getElementById("resultado").innerHTML = "Resultado :"+resultado
+    }
+    </script>
+
+<script>
+    function mutiplicaçao(){
+    var numeroum = document.getElementById("numero_um").value;
+    var numerodois = document.getElementById("numero_dois").value;        
+    
+    var resultado = parseInt(numeroum) * parseInt(numerodois)
+    document.getElementById("resultado").innerHTML = "Resultado :"+resultado
+    }
+    </script>
+
+<script>
+    function subtraçao(){
+    var numeroum = document.getElementById("numero_um").value;
+    var numerodois = document.getElementById("numero_dois").value;        
+    
+    var resultado = parseInt(numeroum) - parseInt(numerodois)
+    document.getElementById("resultado").innerHTML = "Resultado :"+resultado
+    }
+    </script>
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+.geral_cal{
+
+background-color: rgb(14, 77, 133);
+padding: 20px;
+width: 12%;
+text-align: center;
+
+}
+
+
+#resultado{
+
+color:rgb(212, 238, 248);
+font-family: arial ;
+margin-bottom: 10px;
+}
+
+.input {
+
+
+border: nome;
+color: black;
+margin-bottom: 10px;
+width: 100%;
+}
+
+#botao{
+background:none ;
+color:rgb(255, 255, 255);
+
+font-family: arial;
+font-family: 600;
+border: solid 1px rgb(255, 255, 255);
+cursor: pointey;
+margin-bottom:10px;
+width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
